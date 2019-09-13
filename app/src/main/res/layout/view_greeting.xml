@@ -5,6 +5,7 @@
     android:orientation="vertical">
 
     <ImageView
+        android:id="@+id/iv_greeting_background"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/cd_greeting_banner"
@@ -32,12 +33,13 @@
         android:textColor="@color/whitePure" />
 
     <TextView
+        android:id="@+id/tv_greeting_explore"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"
         android:layout_centerVertical="true"
         android:layout_marginEnd="32dp"
-        android:text="Let's Explore!"
+        android:text="@string/explore"
         android:textColor="@color/whitePure"
         android:textStyle="bold" />
 

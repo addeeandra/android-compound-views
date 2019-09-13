@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="GreetingView">
+        <attr name="greet_text" format="string|reference" />
+        <attr name="greet_name" format="string|reference" />
+        <attr name="greet_challenges" format="string|reference" />
+        <attr name="greet_background" format="reference" />
+    </declare-styleable>
+</resources>
