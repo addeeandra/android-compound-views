@@ -14,6 +14,10 @@ class GreetingView(
     defStyleAttr: Int = 0
 ) : FrameLayout(context, attrs, defStyleAttr) {
 
+    constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0)
+
+    constructor(context: Context) : this(context, null, 0)
+
     init {
         inflateView()
         initAttributes(context.obtainStyledAttributes(attrs, R.styleable.GreetingView))
