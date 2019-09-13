@@ -12,18 +12,18 @@ class GreetingView(
     context: Context,
     attrs: AttributeSet? = null,
     defStyleAttr: Int = 0
-) : FrameLayout(context, attrs, defStyleAttr) {
+) : FrameLayout(context, attrs, defStyleAttr), CompoundView {
 
     init {
         inflateView()
         initAttributes(context.obtainStyledAttributes(attrs, R.styleable.GreetingView))
     }
 
-    private fun inflateView() {
+    override fun inflateView() {
         LayoutInflater.from(context).inflate(R.layout.view_greeting, this)
     }
 
-    private fun initAttributes(attrs: TypedArray?) {
+    override fun initAttributes(attrs: TypedArray?) {
         attrs?.let { attr ->
             tv_greeting_hello.text = attr.getText(R.styleable.GreetingView_greet_text)
             tv_greeting_name.text = attr.getText(R.styleable.GreetingView_greet_name)

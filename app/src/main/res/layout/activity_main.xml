@@ -11,7 +11,11 @@
         android:orientation="vertical"
         tools:context=".MainActivity">
 
-        <include layout="@layout/view_toolbar_center" />
+        <dev.poteto.app.compoundview.views.CustomToolbarView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:title="@string/app_name"
+            app:title_position="center" />
 
         <dev.poteto.app.compoundview.views.GreetingView
             android:layout_width="match_parent"
