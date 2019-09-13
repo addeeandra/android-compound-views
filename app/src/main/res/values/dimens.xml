@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="poster_land_width">240dp</dimen>
+    <dimen name="poster_land_height">120dp</dimen>
+    <dimen name="poster_port_width">140dp</dimen>
+    <dimen name="poster_port_height">160dp</dimen>
+
+</resources>

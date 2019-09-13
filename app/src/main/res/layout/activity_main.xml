@@ -44,15 +44,29 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
 
-                <include layout="@layout/view_poster" />
+                <dev.poteto.app.compoundview.views.PosterView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:title="@string/app_name"
+                    app:size="portrait"/>
 
-                <include layout="@layout/view_poster" />
+                <dev.poteto.app.compoundview.views.PosterView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:title="@string/app_name"
+                    app:size="portrait"/>
 
-                <include layout="@layout/view_poster" />
+                <dev.poteto.app.compoundview.views.PosterView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:title="@string/app_name"
+                    app:size="portrait"/>
 
-                <include layout="@layout/view_poster" />
-
-                <include layout="@layout/view_poster" />
+                <dev.poteto.app.compoundview.views.PosterView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:title="@string/app_name"
+                    app:size="portrait"/>
 
             </LinearLayout>
 
@@ -71,20 +85,26 @@
             android:orientation="vertical"
             android:padding="4dp">
 
-            <include
-                layout="@layout/view_poster"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            <dev.poteto.app.compoundview.views.PosterView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:title="@string/app_name"
+                app:size="fill"/>
 
-            <include
-                layout="@layout/view_poster"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            <dev.poteto.app.compoundview.views.PosterView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:size="fill"/>
 
-            <include
-                layout="@layout/view_poster"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+            <dev.poteto.app.compoundview.views.PosterView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:size="fill"/>
+
+            <dev.poteto.app.compoundview.views.PosterView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:size="fill"/>
 
         </LinearLayout>
 

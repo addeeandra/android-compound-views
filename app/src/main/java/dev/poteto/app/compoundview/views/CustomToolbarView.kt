@@ -13,9 +13,13 @@ import kotlinx.android.synthetic.main.view_toolbar_center.view.*
 
 class CustomToolbarView(
     context: Context,
-    attrs: AttributeSet?,
-    defStyleAttr: Int
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = 0
 ) : FrameLayout(context, attrs, defStyleAttr), CompoundView {
+
+    constructor(context: Context, attrs: AttributeSet?) : this(context, attrs, 0)
+
+    constructor(context: Context) : this(context, null, 0)
 
     companion object {
         private const val GRAVITY_LEFT = 0
