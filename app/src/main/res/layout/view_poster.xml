@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="240dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <ImageView
+        android:id="@+id/iv_poster_image"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:contentDescription="@string/cd_poster"
+        android:scaleType="centerCrop"
+        android:src="@drawable/img_dummy_1" />
+
+    <TextView
+        android:id="@+id/iv_poster_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/demo_title"
+        android:textColor="@color/greySmoke" />
+
+    <TextView
+        android:id="@+id/iv_poster_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/demo_date_long"
+        android:textColor="@color/greyCloud"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+    <TextView
+        android:id="@+id/iv_poster_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:ellipsize="end"
+        android:maxLines="3"
+        android:text="@string/demo_content"
+        android:textColor="@color/greySmoke"
+        android:textSize="10sp"
+        tools:ignore="SmallSp" />
+
+</LinearLayout>

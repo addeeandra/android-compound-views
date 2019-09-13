@@ -1,3 +1,16 @@
 <resources>
-    <string name="app_name">Compound View</string>
+    <string name="app_name">Exploration</string>
+
+    <string name="cd_poster">Poster Image</string>
+    <string name="cd_greeting_banner">Greeting Banner</string>
+
+    <string name="greet">Hello, </string>
+    <string name="section_news">News &amp; Informations</string>
+    <string name="section_tourism">Favorite Places</string>
+
+    <string name="demo_name">John Doe</string>
+    <string name="demo_title">Lorem Ipsum Dolor sit Amet Consectectur</string>
+    <string name="demo_date_long">Saturday, 24 Jan 2019</string>
+    <string name="demo_date_short">24 Jan 2019</string>
+    <string name="demo_content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam amet at et iste laboriosam modi molestias officia quas, quia, quidem repellendus repudiandae tempora ut. Eaque eligendi ipsam quidem quod unde!</string>
 </resources>

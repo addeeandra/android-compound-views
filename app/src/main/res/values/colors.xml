@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
+    <color name="colorPrimary">@color/blueSky</color>
+    <color name="colorPrimaryDark">@color/blueSea</color>
+    <color name="colorAccent">@color/yellowGold</color>
+
+    <!-- PALETTE COLORS -->
+    <color name="dark">#333</color>
+    <color name="darkCoal">#111</color>
+    <color name="whitePure">#FFF</color>
+    <color name="greySmoke">#676767</color>
+    <color name="greyCloud">#A0A0A0</color>
+    <color name="blueSky">#57BAF3</color>
+    <color name="blueSea">#188BE8</color>
+    <color name="yellowGold">#FFC107</color>
 </resources>
